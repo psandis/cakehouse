@@ -6,6 +6,10 @@
 
 This contains everything you need to run your app locally.
 
+## Preview
+
+![Cakehouse front](./cakehouse_front.png)
+
 View your app in AI Studio: https://ai.studio/apps/drive/1SiBAllgFb-CMbxlplkB_bPCFkeBohNSQ
 
 ## Run Locally
