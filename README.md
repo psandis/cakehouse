@@ -4,17 +4,17 @@
 
 Brand-forward landing page for Crème de la Crème Patisserie, a fictional French artisanal bakery. The site combines editorial typography, layered imagery, and motion-driven storytelling to present the brand through a full-height hero with floating social icons, a featured award-winning cake showcase with glowing gradient effects, a scroll-animated brand history timeline, and a structured contact footer.
 
-Built with Next.js 15, React, and Framer Motion. Animations include staggered scroll reveals, hover-triggered scale and lift effects, and backdrop blur transitions on the sticky navigation. The color palette draws from warm pastry tones with cream, beige, and brown accents throughout.
+Built with Next.js 16, React 19, and Framer Motion. Animations include staggered scroll reveals, hover-triggered scale and lift effects, and backdrop blur transitions on the sticky navigation. The color palette draws from warm pastry tones with cream, beige, and brown accents throughout.
 
 ## Tech Stack
 
 | Component | Technology | Version |
 |-----------|-----------|---------|
-| Framework | Next.js | 15 |
-| UI | React | 18 |
-| Language | TypeScript | 5.x |
-| Animation | Framer Motion | 12.x |
-| Styling | Tailwind CSS (CDN) | 4 |
+| Framework | Next.js | 16.2 |
+| UI | React | 19.2 |
+| Language | TypeScript | 6.0 |
+| Animation | Framer Motion | 12.38 |
+| Styling | Tailwind CSS | CDN |
 
 ## Features
 
@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000.
+Open http://localhost:3133.
 
 ## Project Structure
 
