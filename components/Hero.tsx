@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
     >
       <div className="absolute inset-0">
         <img
-          src="/images/pastel_cake.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/pastel_cake.png`}
           alt="Bright colorful pastel cake"
           className="w-full h-full object-cover"
           loading="lazy"

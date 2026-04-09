@@ -41,7 +41,7 @@ const Showcase: React.FC = () => {
             <div className="relative group">
               <div className="absolute -inset-2 bg-gradient-to-r from-amber-200 to-rose-200 rounded-lg blur opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/images/cake_with_awards.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/cake_with_awards.png`}
                 alt="Golden whisk award-winning cake display"
                 className="relative rounded-lg shadow-2xl w-full h-auto object-cover aspect-square transform transition-transform duration-700 group-hover:scale-[1.05]"
                 loading="lazy"

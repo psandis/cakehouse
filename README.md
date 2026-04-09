@@ -2,6 +2,8 @@
 
 ![Cakehouse](./cakehouse_front.png)
 
+**Live demo:** https://psandis.github.io/cakehouse/
+
 Brand-forward landing page for Crème de la Crème Patisserie, a fictional French artisanal bakery. The site combines editorial typography, layered imagery, and motion-driven storytelling to present the brand through a full-height hero with floating social icons, a featured award-winning cake showcase with glowing gradient effects, a scroll-animated brand history timeline, and a structured contact footer.
 
 Built with Next.js 16, React 19, and Framer Motion. Animations include staggered scroll reveals, hover-triggered scale and lift effects, and backdrop blur transitions on the sticky navigation. The color palette draws from warm pastry tones with cream, beige, and brown accents throughout.
@@ -37,6 +39,13 @@ npm run dev
 
 Open http://localhost:3133.
 
+## Build
+
+```bash
+npm run build
+npm start
+```
+
 ## Project Structure
 
 ```
@@ -52,3 +61,7 @@ cakehouse/
 │   └── Footer.tsx              Contact and social footer
 └── public/images/              Site imagery
 ```
+
+## License
+
+[MIT](LICENSE)
