@@ -25,7 +25,7 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 w-full z-50 py-4 transition-all duration-300">
       <div className="container mx-auto px-4">
-        <div className={`max-w-5xl mx-auto rounded-full flex items-center justify-between px-6 py-2 transition-all duration-300 ${isScrolled ? 'bg-[#FDF8F0] shadow-md' : 'bg-[#FDF8F0]/80 backdrop-blur-sm'}`}>
+        <div className={`max-w-5xl mx-auto rounded-full flex items-center justify-between px-6 py-2 transition-all duration-300 ${isScrolled ? 'bg-[#FDF8F0] shadow-lg shadow-[#6B4F4F]/10' : 'bg-[#FDF8F0]/80 backdrop-blur-sm shadow-sm shadow-[#6B4F4F]/5'}`}>
             <a href="#" aria-label="Home">
               <BakeryLogo />
             </a>
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
                 ))}
                 <a
                   href="#"
-                  className="bg-[#EED6C4] text-[#6B4F4F] px-6 py-2 rounded-full font-semibold hover:bg-opacity-80 transition-all duration-300 w-full text-center mt-2"
+                  className="bg-[#EED6C4] text-[#6B4F4F] px-6 py-2 rounded-full font-semibold hover:bg-opacity-80 transition-all duration-300 transform hover:scale-105 w-full text-center mt-2"
                 >
                   Order Now
                 </a>

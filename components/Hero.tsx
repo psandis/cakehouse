@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               </a>
               <a
                 href="#history"
-                className="text-white border border-white/40 px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition"
+                className="text-white border border-white/40 px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition-all duration-300 transform hover:scale-105"
               >
                 Our House Story
               </a>
